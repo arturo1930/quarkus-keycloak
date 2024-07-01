@@ -69,9 +69,14 @@ Easily start your REST Web Services
 
 # KeyCloak Config
 
+https://www.youtube.com/watch?v=zaVmgAp5MY0
+
+https://github.com/tuxtor/microprofile-samples
+
 ## Intalar en windows
 ```
-    kc.bat start-dev dummy --http-port 8086
+    keycloak/bin/
+    kc.bat start-dev --http-port 8086
 ```
 
 Para poderse conectar a keykloak se debe autorizar al microservicio o al cliente, los clientes son unicos
@@ -112,3 +117,6 @@ $.ajax(settings).done(function (response) {
 # Ver informacion del token de keycloak
 https://jwt.io/
 
+# Configuracion en el proyecto
+- certificado publico: http://localhost:8086/realms/master/protocol/openid-connect/certs
+- 
